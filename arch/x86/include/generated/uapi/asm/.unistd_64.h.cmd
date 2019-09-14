@@ -1,0 +1,1 @@
+cmd_arch/x86/syscalls/../include/generated/uapi/asm/unistd_64.h := /bin/sh '/mnt/dwx344254/CUN-4G/kernel-3.10/arch/x86/syscalls/syscallhdr.sh' '/mnt/dwx344254/CUN-4G/kernel-3.10/arch/x86/syscalls/syscall_64.tbl' 'arch/x86/syscalls/../include/generated/uapi/asm/unistd_64.h' 'common,64' '' ''
