@@ -3,3 +3,9 @@ config MTK_VIDEOX
   default n
   help
     CONFIG_MTK_VIDEOX
+
+config MTK_KCAL_CTRL
+	bool "MTK_KCAL_CTRL"
+	default y
+	help
+		Enable RGB color calibration.

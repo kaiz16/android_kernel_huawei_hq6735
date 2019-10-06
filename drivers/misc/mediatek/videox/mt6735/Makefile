@@ -17,6 +17,7 @@ obj-$(CONFIG_MTK_FB) += mtkfb_console.o        \
 						mtk_ovl.o              \
 						fbconfig_kdebug_k2.o
 
+obj-$(CONFIG_MTK_KCAL_CTRL) += mtk_kcal_ctrl.o
 
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/video/     \
              -I$(srctree)/drivers/misc/mediatek/sync/      \
