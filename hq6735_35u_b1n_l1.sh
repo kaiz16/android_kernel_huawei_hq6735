@@ -1,5 +1,5 @@
 #!/bin/sh
-CODENAME=hq6735
+CODENAME=HWCUN-L6735
 DEFCONFIG=hq6735_35u_b1n_l1_defconfig
 OUT_DIR=`pwd`/out
 TOOLCHAIN=${HOME}/toolchains/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-
@@ -19,7 +19,7 @@ make -j$(grep -c ^processor /proc/cpuinfo) ARCH=arm O=$OUT_DIR CROSS_COMPILE=${T
 if [ ! -f ${OUT_DIR}/arch/arm/boot/zImage-dtb ]; then
     echo "Build failed. Check your errors."
 else
-    cp out/arch/arm/boot/zImage-dtb ~/AnyKernel3-hq6735
-    cd ~/AnyKernel3-hq6735
+    cp out/arch/arm/boot/zImage-dtb ~/AnyKernel3-HWCUN-L6735
+    cd ~/AnyKernel3-HWCUN-L6735
     zip -r9 Kernel-$CODENAME-$DATE.zip * -x .git README.md *placeholder
 fi
