@@ -7,7 +7,7 @@ static struct vibrator_hw cust_vibrator_hw = {
 	.vib_limit = 9,
   #endif
   #ifdef CUST_VIBR_VOL
-	.vib_vol = 0x6,//3V for vibr
+	.vib_vol = 0x8,//3V for vibr
   #endif
 };
 
